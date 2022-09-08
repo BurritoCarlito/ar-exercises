@@ -22,3 +22,12 @@ Add some data into employees. Here's an example of one (note how it differs from
 Go ahead and create some more employees using the create method. You can do this by making multiple calls to create (like you have before.) No need to assign the employees to variables though. Create them through the @store# instance variables that you defined in previous exercises. Create a bunch under @store1 (Burnaby) and @store2 (Richmond). Eg: @store1.employees.create(...).
 
 =end
+
+#adding employee data
+
+@store1.employees.create(first_name: "Carlo", last_name: "Tanjuaquio", hourly_rate: 60)
+@store1.employees.create(first_name: "Kobe", last_name: "Tanjuaquio", hourly_rate: 100)
+@store1.employees.create(first_name: "Jax", last_name: "Ngyuen", hourly_rate: 200)
+@store2.employees.create(first_name: "Cleo", last_name: "Tanjuaquio", hourly_rate: 80)
+@store2.employees.create(first_name: "Cloie", last_name: "Tanjuaquio", hourly_rate: 80)
+@store2.employees.create(first_name: "Max", last_name: "Martinez", hourly_rate: 300)
